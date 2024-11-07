@@ -1,0 +1,9 @@
+langchain
+langchain-community
+python-dotenv
+fasttext-wheel
+streamlit
+deep-translator
+openai
+transformers
+torch
