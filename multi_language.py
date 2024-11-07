@@ -11,7 +11,7 @@ model = fasttext.load_model("lid.176.bin")
 load_dotenv()
 
 my_key_openai = os.getenv("my_key_openai")
-llm_openai = ChatOpenAI(model="gpt-3.5-turbo", api_key=my_key_openai)
+llm_openai = ChatOpenAI(model="gpt-4o-mini", api_key=my_key_openai)
 
 
 store = {}
